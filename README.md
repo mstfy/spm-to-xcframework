@@ -19,3 +19,6 @@ To create xcframework for a package run
  `--output`: represents the output path where xcframeworks will be created. If omitted current directory is taken.
  `--enable-library-evolution`: This option enables library evolution for xcframeworks. With this they can be used with future swift compilers.
  `--platforms ios simulator`: Specifies which platforms will be supported by xcframeworks. For now only iphone and iphone simulator supported.
+
+## Limitations
+For now only the packages that has swift code supported. Binary packages and objective-c packages are not supported.
